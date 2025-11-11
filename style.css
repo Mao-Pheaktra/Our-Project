@@ -1,0 +1,62 @@
+.head{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/1200x/e1/a2/a0/e1a2a0784105e4567556017361bd3885.jpg);
+    background-size: cover;
+}
+.box{
+    opacity: 0.8;
+    transform: skew(-15deg);
+    width: 130px;
+    height: 352px;
+    border: 2px solid #8338ec;
+    & img{
+        width: 100%;
+        height: 55%;
+        padding: 5%;
+        border-radius: 10px;
+    }
+}
+.box-content{
+    width: 580px;
+    height: 206px;
+    padding: 10px;
+    margin: 400px  0px ;
+    opacity: 0.7;
+    font-weight: 900;
+    margin-left: -400px;
+    transform: skew(-15deg);
+    border: 2px solid #8338ec;
+}
+.middle{
+    width: 100%;
+    height: 250px;
+}
+.box-sell{
+    width: 100%;
+    height: 500px;
+    & img{
+        height: 90%;
+        object-fit: fill;
+        border-radius: 10px;
+    }
+}
+.box-search{
+    width: 100%;
+    height: 70vh;
+    background-image: url(https://i.pinimg.com/1200x/66/c4/f3/66c4f3d6407859b2b6f69f66fa3bf207.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer{
+    width: 100%;
+    height: 40vh;
+    background-color: #212529;
+    color: white;
+}
+.card-box{
+    & img{
+        width: 100%;
+        height: 60%;
+    }
+}
