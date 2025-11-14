@@ -10,17 +10,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body> 
-  <div class="head w-100 vh-100 p-3 px-5">
-    <nav class="navbar navbar-expand-lg ">
-  <div class="container-fluid">
+  <div class="head w-100 vh-100 p-3 px-2 ">
+    <!-- <nav class="navbar navbar-expand-lg ">
+         <a class="navbar-brand fw-bold " href="#"><i class="fa-solid fa-umbrella-beach fs-2"></i>HOUSE RENTAL</a>
+  <div class="container-fluid ">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand fw-bold " href="#"><i class="fa-solid fa-umbrella-beach fs-2"></i>HOUSE RENTAL</a>
-      <ul class="navbar-nav me-lg-auto mb-2 mb-lg-0">
-        <li  class="nav-item me-lg-5">
-          <a style="color: #8338ec; margin-left: 180px;" class="nav-link active fw-bold " aria-current="page" href="#">Home</a>
+      <ul  class="navbar-nav d-flex gap-3">
+        <li  class="nav-item ">
+          <a style="color: #8338ec; margin: 0 100px;" class="nav-link active fw-bold " aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item me-lg-5">
           <a  style="color: #8338ec;" class="nav-link active fw-bold" href="#">Community</a>
@@ -42,8 +42,86 @@
       </form>
     </div>
   </div>
+</nav> -->
+<nav class="navbar navbar-dark  fixed-top">
+  <div class="container-fluid">
+     <a style="color: #8338ec;" class="navbar-brand fw-bold " href="#"><i  class="fa-solid fa-umbrella-beach fs-2"></i>HOUSE RENTAL</a>
+     <form style="margin-left: 800px;" class="d-flex gap-3 " role="sign up">
+        <i style="color: red;" class="bi bi-rocket p-4 fs-3"></i>
+        <button style="background-color: #8338ec;" class="btn text-light w-100 h-50 mt-4" type="submit">Sign Up</button>
+      </form>
+    <button style="background-color: #8338ec;" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dream House For All</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a style="color: #8338ec;" class="nav-link active fw-bold" aria-current="page" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" >
+              <i class="fa-regular fa-house"></i>Home
+              <div class="collapse" id="collapseExample">
+                 <div class="card card-body">
+                  Discover a smarter way to rent with DreamHomes. We connect you to a wide range of beautiful, well-maintained properties 
+                  designed for comfort and convenience. From peaceful suburban homes to stylish city apartments, our platform helps you explore 
+                  options that match your needs. With clear details, real photos, and helpful support, 
+                  renting a home becomes easier than ever. Start exploring today and find a place you’ll love calling home.
+                   </div>
+              </div>
+            </a>
+          </li>
+         <li class="nav-item">
+            <a style="color: #8338ec;" class="nav-link active fw-bold" aria-current="page" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1" >
+              <i class="fa-solid fa-globe"></i>Community
+              <div class="collapse" id="collapseExample1">
+                 <div class="card card-body">
+                  At DreamHomes, we believe that a home is more than a place to live—it's a part of a thriving community. 
+                  Our neighborhoods are designed to bring people together with shared spaces, friendly environments, 
+                  and opportunities to connect. Whether it’s local events, safe surroundings, nearby schools,
+                   or supportive neighbors, we help you find a community where you can grow, belong, and feel at home.
+                   </div>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a style="color: #8338ec;" class="nav-link active fw-bold" aria-current="page" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2" >
+              <i class="fa-solid fa-atom"></i>Designed
+              <div class="collapse" id="collapseExample2">
+                 <div class="card card-body">
+                  Every home at DreamHomes is crafted with thoughtful design that blends comfort, style, and functionality.
+                   From modern interiors and smart layouts to elegant details that enhance your living experience,
+                    our properties are designed to make life easier and more enjoyable. Whether you love minimalist spaces or warm,
+                   cozy atmospheres, our homes offer designs that reflect your lifestyle and inspire everyday living.
+                  </div>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a style="color: #8338ec;" class="nav-link active fw-bold" aria-current="page" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3" >
+              <i class="fa-solid fa-people-group"></i>About Us
+              <div class="collapse" id="collapseExample3">
+                 <div class="card card-body">
+                  DreamHomes is dedicated to helping individuals and families find comfortable, affordable, 
+                  and trustworthy places to live. Since our founding, we’ve focused on creating a smooth and stress-free rental
+                   experience by offering verified listings, transparent pricing, and personalized support. Our mission is
+                    to connect people with homes that fit their lifestyle, while promoting safe communities and long-term satisfaction. At DreamHomes, 
+                  we don’t just help you find a house — we help you find a place to belong.
+                 </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  
 </nav>
-<div class="d-flex gap-1">
+<div style="margin-top: 100px;" class="d-flex gap-1">
 <div class=" box bg-light-subtle mt-5 ">
   <img src="https://i.pinimg.com/736x/e7/da/e3/e7dae3bc62142cdbdc43aa56e4125303.jpg" alt="">
   <p class="text-center fw-bold">🏊‍♀️Private Swimming Pool</p>
@@ -56,76 +134,48 @@
   <img src="https://i.pinimg.com/1200x/3d/9d/15/3d9d15a7f9693bd58a74da9a098bed98.jpg" alt="">
   <p class="text-center fw-bold">📺Nice Living Room</p>
 </div>
-<div class="box-content bg-white">
+<div class="box-content bg-white ">
 <p>Welcome to DreamHomes, your trusted destination for finding the perfect place to live. Whether you’re searching for a cozy apartment in the city, a spacious family home, or a relaxing vacation rental, we make it simple and secure to discover properties that match your lifestyle and budget. With verified listings, transparent prices, and dedicated support, DreamHomes helps you rent with confidence and comfort 
   — turning your house-hunting journey into a smooth and enjoyable experience.</p>
 </div>
 </div>
- </div>
- <div class="middle container mt-3">
-  <h2 style="color: #8338ec;" class="text-center">Explor Apartment Types</h2>
-  <div class="d-flex gap-4">
-  <div style="width: 180px;height: 180px;border-color: #8338ec;" class="card card-body py-4 border-3">
-   <i style="font-size: 60px;color: #8338ec;" class="fa-solid fa-house-chimney "></i>
-   <h4>Houses</h4>
-   <p>22 Properties</p>
-  </div>
-  <div style="width: 180px;height: 180px;border-color: #8338ec;" class="card card-body border-3">
-   <i style="font-size: 60px;color: #8338ec;" class="fa-solid fa-building-wheat"></i>
-   <h4>Apartments</h4>
-   <p>30 Properties</p>
-  </div>
-  <div style="width: 180px;height: 180px;border-color: #8338ec;" class="card card-body border-3">
-   <i style="font-size: 45px;color: #8338ec;" class="bi bi-buildings-fill"></i>
-   <h4>Office</h4>
-   <p>41 Properties</p>
-  </div>
-  <div style="width: 180px;height: 180px;border-color: #8338ec;" class="card card-body border-3">
-   <i style="font-size: 60px;color: #8338ec;" class="fa-solid fa-city"></i>
-   <h4>Townhome</h4>
-   <p>15 Properties</p>
-  </div>
-  <div style="width: 180px;height: 180px;border-color: #8338ec;" class="card card-body border-3 ">
-    <i style="font-size: 60px;color: #8338ec;" class="fa-solid fa-landmark"></i>
-    <h4>Bungalow</h4>
-    <p>40 Properties</p>
-   </div>
-  </div>
- </div>
- <div class="box-sell container d-flex gap-3">
-    <img class="w-50 position-relative" src="https://i.pinimg.com/1200x/19/95/14/199514e9fd6b6f7bf6b8e4ebf8430cdd.jpg" alt="">
-    <div class="d-grid">
-    <img style="width: 120px;height: 120px;" class="rounded-circle position-relative" src="https://i.pinimg.com/736x/4a/70/f4/4a70f405a23e39c21903499e2f00a47e.jpg" alt="">
-      
-    <img style="width: 120px;height: 120px;margin-left: 10px;" class=" rounded-circle position-relative" src="https://i.pinimg.com/1200x/ce/85/ae/ce85ae34137d3b26d0230632579aa6c4.jpg" alt="">
-    <img style="width: 120px;height: 120px;" class=" rounded-circle" src="https://i.pinimg.com/1200x/47/77/25/47772560a497612804284862a028a791.jpg" alt="">
-    </div>
-    <div style="background-color: #fefae0;" class="box-rent w-50 h-75 p-3">
-      <div class="d-flex gap-5">
-      <h4>$1,200/month</h4>
-      <button type="button" class="btn btn-warning text-white">Rent Now</button>
-      </div>
-      <div class="d-flex mt-3">
-        <div class="d-grid">
-          <i class="fa-solid fa-bed-pulse"></i>
-          <p>4 Bedrooms</p>
-        </div>
-        <div class="d-grid">
-          <i class="fa-regular fa-bath"></i>
-          <p>2 Bathrooms</p>
-        </div>
-        <div class="d-grid">
-          <i class="fa-solid fa-kitchen-set"></i>
-          <p>1 Modern Kitchen</p>
-        </div>
-        <div class="d-grid">
-          <i class="fa-light fa-car-rear"></i>
-          <p>2 Car Courages</p>
-        </div>
+ <div class="middle container">
+  <h2 style="color: #8338ec;" class="text-center mb-4">Explore Apartment Types</h2>
+  <div class="row g-4 justify-content-center">
+    <div class="col-6 col-md-4 col-lg-2">
+      <div class="card card-body py-2 border-3 text-center">
+        <i style="font-size: 60px;color: #8338ec;" class="fa-solid fa-house-chimney"></i>
+        <h4>Houses</h4>
+        <p>22 Properties</p>
       </div>
     </div>
- </div>
- <div class="box-search container rounded-4 p-5">
+
+    <div class="col-6 col-md-4 col-lg-2">
+      <div class="card card-body py-2 border-3 text-center">
+        <i style="font-size: 60px;color: #8338ec;" class="fa-solid fa-building-wheat"></i>
+        <h4>Apartments</h4>
+        <p>30 Properties</p>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-2">
+      <div class="card card-body py-2 border-3 text-center">
+        <i style="font-size: 45px;color: #8338ec;" class="bi bi-buildings-fill"></i>
+        <h4>Office</h4>
+        <p>41 Properties</p>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-2">
+      <div class="card card-body py-2 border-3 text-center">
+        <i style="font-size: 60px;color: #8338ec;" class="fa-solid fa-city"></i>
+        <h4>Townhome</h4>
+        <p>15 Properties</p>
+      </div>
+    </div>
+</div>
+
+ <!-- <div class="box-search container rounded-4 p-5 ">
   <div style="background-color: rgb(0, 123, 255);opacity: 0.6;height: 88%;" class="container w-100 ">
    <form class="p-3 " action="#">
     <h4 class="text-end text-white"><i class="bi bi-arrow-up-right"></i>BEST PRICE</h4>
@@ -214,54 +264,163 @@
       <p>Only: <span class="fw-bold">$600</span>/night</p>
     </div>
   </div>
- </div>
- <div class="footer">
-  <!-- FOOTER -->
-  <footer class="bg-dark text-light pt-5 pb-3 mt-auto">
-    <div class="container">
-      <div class="row">
-        <!-- About -->
-        <div class="col-md-4 mb-4">
-          <h5 class="text-uppercase mb-3">DreamHomes</h5>
-          <p>Helping families find their dream homes with ease and trust since 2008.</p>
+ </div> -->
+ <div class="box-search rounded-4 p-1 p-md-5">
+  <!-- Search Form Section -->
+  <div class="bg-primary bg-opacity-50 rounded-4 p-1 p-md-2">
+    <form action="#">
+      <h4 class="text-end text-white"><i class="bi bi-arrow-up-right"></i> BEST PRICE</h4>
+      <p class="text-end text-white fs-5">GUARANTEE</p>
+        <h4 class="fs-6 text-white">What do you need?</h4>
+    <h4 class="fs-6 text-white px-5">Trip</h4>
+      <div class="row g-3 mb-3">
+        <div class="col-6 col-md-3">
+          <button type="button" class="btn btn-warning w-100"><i class="bi bi-airplane-fill"></i></button>
         </div>
-
-        <!-- Quick Links -->
-        <div class="col-md-4 mb-4">
-          <h5 class="text-uppercase mb-3">Quick Links</h5>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-light text-decoration-none">Home</a></li>
-            <li><a href="#" class="text-light text-decoration-none">Properties</a></li>
-            <li><a href="#" class="text-light text-decoration-none">Agents</a></li>
-            <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
-          </ul>
+        <div class="col-6 col-md-3">
+          <button type="button" class="btn btn-warning w-100"><i class="bi bi-building"></i></button>
         </div>
-
-        <!-- Newsletter -->
-        <div class="col-md-4 mb-4">
-          <h5 class="text-uppercase mb-3">Newsletter</h5>
-          <p>Subscribe to get updates on the latest properties.</p>
-          <form class="d-flex">
-            <input type="email" class="form-control me-2" placeholder="Email address">
-            <button class="btn btn-primary" type="submit">Join</button>
-          </form>
+        <div class="col-6 col-md-3">
+          <button type="button" class="btn btn-warning w-100"><i class="fa-solid fa-car"></i></button>
+        </div>
+        <div class="col-6 col-md-3">
+          <select class="form-select fw-bold w-100">
+            <option value="Resort">Resort</option>
+            <option value="Mountain">Mountain</option>
+            <option value="Beach">Beach</option>
+            <option value="Forest">Forest</option>
+          </select>
         </div>
       </div>
 
-      <hr class="border-secondary">
+      <div class="row g-3 mb-3">
+        <div class="col-6 col-md-3">
+          <label class="form-label text-white">From</label>
+          <input class="form-control rounded-2" type="text" placeholder="Cambodia">
+        </div>
+        <div class="col-6 col-md-3">
+          <label class="form-label text-white">To</label>
+          <input class="form-control rounded-2" type="text" placeholder="New York">
+        </div>
+        <div class="col-6 col-md-3">
+          <label class="form-label text-white">Depart</label>
+          <input class="form-control rounded-2" type="date">
+        </div>
+        <div class="col-6 col-md-3">
+          <label class="form-label text-white">Return</label>
+          <input class="form-control rounded-2" type="date">
+        </div>
+      </div>
 
-      <!-- Bottom -->
-      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
-        <p class="mb-0">&copy; 2025 DreamHomes. All Rights Reserved.</p>
-        <div class="mt-2 mt-md-0">
-          <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="text-light"><i class="bi bi-twitter-x"></i></a>
+      <div class="row g-3 mb-3">
+        <div class="col-6 col-md-3">
+          <label class="form-label text-white">Adults (18+)</label>
+          <select class="form-select fw-bold">
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+          </select>
+        </div>
+        <div class="col-6 col-md-3">
+          <label class="form-label text-white">Children (0-17)</label>
+          <select class="form-select fw-bold">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+        </div>
+        <div class="col-6 col-md-3 d-flex align-items-end">
+          <button type="button" class="btn btn-warning w-100 fw-bold">SEARCH</button>
+        </div>
+        <div class="col-6 col-md-3 d-flex align-items-end">
+          <select class="form-select fw-bold w-100">
+            <option>Advance options</option>
+          </select>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- Info Section -->
+  <div class="container w-100 bg-white d-flex flex-column flex-md-row gap-3 justify-content-center align-items-start p-3 mt-3 rounded-4">
+    <p class="text-center text-md-start"><i class="bi bi-arrow-up-right text-primary"></i> Search over <span class="fw-bold text-primary">564,000 hotels</span> and <span class="fw-bold text-primary">400 airlines</span> worldwide.</p>
+    <p class="text-center text-md-start"><i class="bi bi-arrow-up-right text-primary"></i> Secure incredible value with Expedia's <span class="fw-bold text-primary">Best Price Guarantee.</span></p>
+    <p class="text-center text-md-start"><i class="bi bi-arrow-up-right text-primary"></i> <span class="fw-bold text-primary">No Expedia cancellation fee</span> to change or cancel almost any hotel reservation.</p>
+  </div>
+</div>
+  <!-- Cards Section -->
+  <div class="card-box ">
+    <div class="row g-4 justify-content-center">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100 rounded-3">
+          <img class="card-img-top object-fit-cover" style="height:200px;" src="https://i.pinimg.com/736x/f3/13/03/f313034d00974d6d9af500e3dff966ef.jpg" alt="Treehouse Villas">
+          <div class="card-body">
+            <div class="mb-2">
+              <i class="fa-solid fa-star text-warning"></i>
+              <i class="fa-solid fa-star text-warning"></i>
+            </div>
+            <h5 class="card-title">Treehouse Villas</h5>
+            <p class="card-text">Phnom Penh</p>
+            <p>
+              <button class="btn btn-light border-primary text-primary">5/5</button>
+              <span class="fw-bold">Excellent</span> (5 Reviews)
+            </p>
+            <p>Only: <span class="fw-bold">$600</span>/night</p>
+          </div>
         </div>
       </div>
     </div>
-  </footer>
- </div>
+  </div>
+ <div class="footer  pt-5 ">
+  <div class="container">
+    <div class="row">
+      <!-- About -->
+      <div class="col-md-4 col-12 mb-4">
+        <h5 class="text-uppercase mb-3">DreamHomes</h5>
+        <p>Helping families find their dream homes and rentals with ease and trust since 2008.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 col-12 mb-4">
+        <h5 class="text-uppercase mb-3">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Rentals</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Agents</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Contact</a>
+          <p>Email: maopheaktra5@gmail.com</p>
+        <p>Tell: 060648935</p></li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="col-md-4 col-12 mb-4">
+        <h5 class="text-uppercase mb-3">Newsletter</h5>
+        <p>Subscribe for the latest house rentals and updates.</p>
+        <form class="d-flex flex-column flex-sm-row gap-2">
+          <input type="email" class="form-control" placeholder="Email address">
+          <button class="btn btn-primary" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <hr class="border-secondary">
+
+    <!-- Bottom -->
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <p class="mb-2 mb-md-0">&copy; 2025 DreamHomes. All Rights Reserved.</p>
+      <div class="d-flex gap-3">
+        <a href="#" class="text-light"><i class="bi bi-facebook fs-5"></i></a>
+        <a href="#" class="text-light"><i class="bi bi-instagram fs-5"></i></a>
+        <a href="#" class="text-light"><i class="bi bi-twitter fs-5"></i></a>
+        <a href="#" class="text-light"><i class="bi bi-linkedin fs-5"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
