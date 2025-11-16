@@ -39,17 +39,9 @@
 .middle{
     width: 100%;
     height: 250px;
-    margin-top: 75px;
+    margin-top: 25px;
 }
-.box-sell{
-    width: 100%;
-    height: 500px;
-    & img{
-        height: 90%;
-        object-fit: fill;
-        border-radius: 10px;
-    }
-}
+
 .box-search{
     width: 100%;
     height: 70vh;
@@ -58,18 +50,4 @@
     background-size: cover;
 }
 
-.card-box{
-    margin-top: 50px;
-    & img{
-        width: 100%;
-        height: 60%;
-    }
-}
-.footer{
-    width: 100%;
-    height: 40vh;
-    background-color: #212529;
-    color: white;
-    margin-top: 40px;
-    
-}
+
